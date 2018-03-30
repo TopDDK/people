@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* * : 웹사이트의 전 영역을 의미합니다. (아스테리크) */
+
+/* 기본적으로 적용될 CSS구성 */
+
+/* ★★★ 1. HTML 전 영역에 기본적으로 들어가 있는 여백 구성을 제거 */
+   /* (1) margin : 바깥여백을 말한다. */
+   /* (2) padding : 안쪽여백을 말한다. */
+
+*{
+    margin:0; /*바깥여백값을 제거*/
+    padding:0; /*안쪽여백값을 제거*/
+    /* box-sizing: border-box; */
+}
+
+body{
+    font-family: "arial", "나눔 고딕", sans-serif;
+    font-size: 14px;
+}
+
+/* 
+   2. a태그에 밑줄을 제거하자.
+   (1) text-decoration : 문자의 꾸밈을 설정
+   (2) color : 문자의 색상
+   글자의 색상 표현시 16진수코드를 활용하거나
+   rgba값을 활용하여 표현할 수 있는데
+   이때 a(alpha)의 값을 활용하여 투명도를 적용
+   할수 있다. 0 ~ 1 , 중간값은 (0.1 ~ 0.9)
+*/
+
+a{
+    text-decoration: none; /*a태그 적용시 발생되는 밑줄을 제거*/
+    color: #000; /*글자색상을 검정색으로 표현*/
+}
+
+/* 
+   3. list메뉴 앞에 특수문자를 제거시키자.
+   (1) list-style-type : 리스트 앞에 표현되는
+       특무문자를 제어(다른부호로 변화, 제거)하는 구성 
+*/
+
+ul, ol{
+    list-style-type: none; /*리스트 앞에 특수부호 제거*/
+}
+
+img, input, select{
+    border:0;
+    vertical-align: top;
+}

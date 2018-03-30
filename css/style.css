@@ -1,0 +1,488 @@
+@charset "utf-8";
+
+/* all Moblie Code */
+
+#wrap, header, main, footer{width: 100%}
+
+::-webkit-scrollbar {display: none !important}
+
+/* 네비게이션 & 메인이미지 */
+#headerin{position: relative; width: 100%; height: 640px;background: url("../images/mainimg.jpg") no-repeat center  / cover;}
+
+#headerin a, #headerin p{font-family: "arial", sans-serif;/* color: #fff; */}
+
+.headerin--top{position: absolute; width: 100%; height: 60px; display: flex; justify-content: space-between; align-items: center}
+
+.headerin--top>h1>a{display: block; width: 48px; height: 48px; padding: 5px 14px;}
+
+.headerin--top>h1>a>img{display: block; height: 100%;}
+
+.headerin--gnb{position: absolute;top:60px; width: 100%; background:rgba(0, 0, 0, 0.8); display: none;}
+
+.headerin--gnb a{display: block;font-size: 1rem; font-weight: bold;text-align: center; color: #fff; padding: 1rem 1rem;}
+
+.headerin--menubar{display: flex; align-items: center;}
+
+.headerin--menubar>select{display: block; color: #ccc; background: rgba(0, 0, 0, 0);}
+
+.headerin--menubar a{display: block; font-size: 21px; color: #fff; margin: 0 20px 0 10px;}
+
+.headerin--mainvisual{width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;border:1px solid #fff}
+
+.headerin--mainvisual>div{height: 50%;display: flex; flex-flow: column;align-items: center; justify-content: space-between;}
+
+.headerin--mainvisual p{width: 100%; text-align: center;}
+
+.mainvisual--think{width: 100%;}
+
+.mainvisual--think p{display: block;font-size: 3rem; font-weight: 1000;color: rgba(255, 255, 255, 0.5);padding-bottom: 50px;}
+
+.mainvisual--sub1{display: block;font-size: 1.8rem; font-weight: bold;color: #fff}
+
+.mainvisual--sub2{display: block;font-size: 0.6rem; font-weight: 100;color: #fff}
+
+.mainvisual--btn{display: flex; flex-flow: column; align-items: center; margin: 2rem 0 0 0}
+
+.mainvisual--btn a{display: block; width: 238px; height: 48px; text-align: center; line-height: 48px; color: #fff;border: 1px solid #fff; margin: 10px;}
+
+#works{width: 90%; margin: 0 auto;}
+
+#mainworks{width: 100%}
+
+/*  Creative+Unique+Funny */
+#cuf{width: 90%; margin: 2rem auto 0 auto;border-bottom: 1px solid #999}
+
+.cuf--image{width: 100%; height: 100px; background: url("../images/creative1.jpg") no-repeat center/cover}
+
+.cuf--title__title{display: flex;align-items: center; width: 100%; font-family: "arial", sans-serif;}
+
+.cuf--title__title>li:first-child{width: 10px ;height: 50px; background:#69c; margin-right:10px;}
+
+.cuf--title__title p{color: #69c; font-size: 1.5rem; font-weight: bold}
+
+.cuf--title__title span{font-size: 0.6rem; color:#999;}
+
+.cuf--title__list{text-align: center; color: #999; padding: 2rem 0;}
+
+.cuf--title__list>li{margin: 5px 0}
+
+.cuf--title__list span{font-size: 1.2rem;font-weight: bold;color: #000}
+
+.cuf--title__list p{/* display: block; */font-size: 0.6rem;}
+
+.fa-plus{color: #ccc;margin: 0 1rem}
+
+/* TakeOutTheIdea */
+#works--take{display: flex;flex-flow: column;align-items: flex-start;margin: 2rem auto 0 auto;}
+
+/* TakeOutTheIdea images */
+#mainworks--take{width: 100%; display: flex; justify-content: center;}
+
+#mainworks--take img{display: block; height: 600px;}
+
+/* Only Works for Clients */
+#works--wfclients{width: 100%; margin: 2rem auto 0 auto;}
+
+/* Only Works for Clients__Think Images */
+.works--wfclients__images{width: 100%;display: flex; justify-content: space-between;align-items:flex-start ; background: #69c;}
+
+.works--wfclients__imgf{width: 80%; height: 224px;background: url("../images/art02.jpg") no-repeat -350px 0/auto;}
+
+.works--wfclients__images>li:last-child img{display: block; width: 40px;}
+
+/* Only Works for Clients__title */
+.works--wfclients__title{display: flex; width: 100%; font-family: "arial", sans-serif; align-items: center;}
+
+.works--wfclients__title>li:first-child{width: 10px ;height: 50px; background:#69c; margin-right:10px;}
+
+.works--wfclients__title p{color: #69c; font-size: 1.5rem; font-weight: bold}
+
+.works--wfclients__sub{font-family: "arial", sans-serif; font-size: 0.8rem;color: #999}
+
+.works--wfclients__sub li{margin-top: 20px;}
+
+.works--wfclients__sub__tit{display: block;font-size: 1.2rem; font-weight: bold; color: #000;}
+
+.works--wfclients__sub>li:nth-child(3){display: block;line-height: 1.2rem; font-size: 0.6rem;color: #000}
+
+.works--wfclients__sub__sub{font-family: "나눔 고딕", sans-serif;}
+
+.works--wfclients__sub a{display: block; width: 238px; height: 48px; font-size: 1rem; color: #999; text-align: center; line-height: 48px;border: 1px solid #999; margin: 0 auto;}
+
+/* works__makeIdea__images */
+#works--makeIdea{margin: 2rem auto 0 auto;}
+
+.work--makeIdea__images__img{width: 100%; height: 340px; background: #69c; display: flex; flex-flow: column; align-items: flex-end; justify-content: space-between;}
+
+.work--makeIdea__images__img_imgf{width: 100%; height: 244px; background: url("../images/w01.jpg") no-repeat center/cover}
+
+.work--makeIdea__images__img img{display: block;height: 80px;}
+
+/* works__hidtory */
+.work--makeIdea__history{width: 100%; display: flex; margin-top:1rem;}
+
+.work--makeIdea__history>li:first-child{width: 60%; background: url("../images/ske02.jpg") no-repeat bottom/100%;}
+
+.work--makeIdea__history>li:last-child{width: 40%;}
+
+.work--makeIdea__history__list{text-align: right;}
+
+.work--makeIdea__history__list li{margin-top:2rem;}
+
+.work--makeIdea__history__list li:first-child{margin: 0}
+
+.work--makeIdea__history__list span{font-size: 1.5rem; letter-spacing: -1px; color: #000}
+
+.work--makeIdea__history__list p{font-size: 0.6rem; font-weight: bold; color: #666 ; line-height: 1.2rem}
+
+/* View Graphic Work & View Character Works */
+#works1{width: 90%; margin: 2rem auto 0 auto;}
+
+.works1--gworks{width: 100%;margin-top:1rem;}
+
+.works1--gworks>ul{width: 100%; height: 150px; display: flex; flex-flow: column; align-items: center; justify-content: center; color: #fff; border-top:1px solid #fff}
+
+.works1--gworks>ul a{display: block; width: 238px; height: 48px; text-align: center; line-height: 48px; color: #fff;border: 1px solid #fff; margin-top: 0.6rem;}
+
+.works1--gworks__graphic{background: url("../images/graphicsWork.jpg") no-repeat center/cover}
+
+.works1--gworks_charater{background: url("../images/CharacterWorks.jpg") no-repeat center/cover}
+
+.works1--gworks>ul>li{width: 100%; text-align: center;}
+
+.works1--gworks>ul>li:first-child{font-size: 1.5rem}
+
+.works1--gworks>ul>li:nth-child(2){font-size: 0.6rem; margin-top: 0.2rem}
+
+/*  Our Services */
+#works2{width: 90%; margin: 2rem auto 0 auto;}
+
+.works2--title{display: flex; width: 100%; font-family: "arial", sans-serif; align-items: center; background: #f0f0f0; margin-bottom: 0.6rem}
+
+.works2--title>li:first-child{width: 10px ;height: 50px; background:#69c; margin-right:10px;}
+
+.works2--title p{color: #69c; font-size: 1.5rem; font-weight: bold}
+
+.works2--sub1>li, .works2--sub2>li{margin-bottom:1rem}
+
+.works2--sub1 h3, .works2--sub2 h3{font-size:1.2rem}
+
+.works2--sub1 p, .works2--sub2 p{font-size: 0.8rem;color: #666}
+
+.works2--sub1 span, .works2--sub2 span{font-size: 0.7rem; color: #999}
+
+.works2--sub2>li:last-child{display: flex; justify-content: center}
+
+.works2--sub2>li>img{display: block; height: 120px; opacity: 0.8;}
+
+/* Latest works */
+#works3{width: 90%; margin: 2rem auto 0 auto;}
+
+.works3--title{display: flex; width: 100%; font-family: "arial", sans-serif; align-items: center; background: #f0f0f0}
+
+.works3--title>li:first-child{width: 10px ;height: 50px; background:#69c; margin-right:10px;}
+
+.works3--title p{color: #69c; font-size: 1.5rem; font-weight: bold}
+
+                /* 스크롤박스 */
+                #works3--scrollBox, .works3--scrollBox__scroll{width: 240px; height: 380px;margin: 0 auto}
+
+                #works3--scrollBox{position: relative; overflow: hidden;}
+
+                .works3--scrollBoxin{position: absolute; left: 0; overflow-x:scroll; overflow-y: hidden;}
+
+                .works3--scrollBox__scroll>ul{width: 1200px; display: flex}
+                /* 스크롤설정 end */
+
+
+                .works3--scrollBox__scroll>ul>li{width: 240px;height: 380px;}
+
+                .works3--scrollBox__co{width: 100%; height: 100%;display: flex;flex-flow: column;justify-content: center;align-items: center}
+
+                .works3--scrollBox__co>a{display: block;width: 240px;text-align: center;padding: 1rem 0}
+
+                .works3--scrollBox__co img{display: block; width: 230PX;margin: 0 auto}
+
+
+
+/* Work Process  */
+#works4{width: 90%; margin: 2rem auto 0 auto;}
+
+.works4--title{display: flex; width: 100%; font-family: "arial", sans-serif; align-items: center; background: #f0f0f0; margin-bottom:1rem }
+
+.works4--title>li:first-child{width: 10px ;height: 50px; background:#69c; margin-right:10px;}
+
+.works4--title p{color: #69c; font-size: 1.5rem; font-weight: bold}
+
+
+
+                /* 스크롤박스 */                
+                #works4--scroll, .works4--scrollBox__scroll{width: 220px; height: 380px; margin: 0 auto;}
+
+                #works4--scroll{position: relative; overflow: hidden}
+
+                .works4--scrollinBox{position: absolute; left: 0; overflow-x:scroll; overflow-y: hidden;}
+
+                .works4--scrollBox__scroll>ul{width:1200px; display: flex}
+                /* 스크롤설정 end */
+
+
+                .works4--scrollBox__scroll>ul>li{display: block;width: 200px; height: 380px/* ;border:1px solid red */}
+
+                .works4--scrollBox__scroll__step{width: 100%;height: 100%;text-align: center; display: flex;flex-flow: column;justify-content: center;align-items: center;color: #999;}
+
+                .works4--scrollBox__scroll__step>p{display: block}
+
+                .works4--scrollBox__scroll__step>p:first-child{font-size: 1.2rem; font-weight: 600;line-height: 2.5rem}                
+
+                .works4--scrollBox__scroll__step img{display: block; width: 200px;margin: 0.6rem auto}
+
+                .works4--scrollBox__scroll__step b{font-size: 1rem;}
+
+                .works4--title__num{font-size: 4rem; font-weight: 1000;}
+
+                .works4--title__inf{font-size: 0.6rem}
+
+
+/* Bottom IMG */
+#bottomimg{width: 100%; height: 440px;font-size: 1rem;text-align: center;line-height: 440px;color: #fff;background: url("../images/bottomimg.jpg") no-repeat center/auto 100%;margin: 4rem auto 0 auto;}
+
+/* footer */
+#footerin{width: 100%; height: 150px; display: flex; align-items: center; flex-flow: column; justify-content: space-between;}
+
+#footerin a{display: inline-block; font-size: 1.5rem; color: #666; padding: 2px; margin: 5px;}
+
+#footerin>li:last-child{font-size: 0.6rem; color: #666; margin-bottom:0.6rem }
+
+
+
+
+
+
+
+
+@media all and (min-width:768px){
+    
+/* 네비게이션 & 메인이미지 */
+#headerin{height: 1024px;}
+
+.headerin--top{height: 100px;}
+
+.headerin--top>h1>a{width: 80px; height: 80px; padding: 5px 30%;}
+
+.headerin--gnb{position: static; width: 100%; display: block;}
+
+.headerin--gnb>ul{display: flex; justify-content: flex-end;}
+
+.headerin--menubar>select{margin: 0 20px 0 10px}
+
+.headerin--menubar a{display: none;}
+
+.mainvisual--think{margin-top: 100px}
+
+.mainvisual--think p{font-size: 5rem;}
+
+.mainvisual--sub1{font-size: 2.5rem;}
+
+.mainvisual--sub2{font-size: 0.8rem; padding-top: 0.8rem;}
+
+.mainvisual--btn{flex-flow: unset;margin-bottom:100px;justify-content: center;margin: 2rem 0 3rem 0}
+
+/*  Creative+Unique+Funny */
+#cuf{width: 90%;}
+
+.cuf--image{height: 200px;}
+
+.cuf--title__title>li:first-child{height: 100px}
+
+.cuf--title__title p{font-size: 2.5rem;}
+
+.cuf--title__title span{font-size: 1.2rem;}
+
+.cuf--title__list{display: flex; justify-content: center; align-items: center;}
+
+.fa-plus{font-size: 1.8rem}
+
+/* TakeOutTheIdea */
+#works--take{flex-flow: unset;flex-direction: row-reverse; margin-top:2rem}
+
+/* TakeOutTheIdea images */
+#mainworks--take{width: 30%; display: flex; justify-content: flex-end; }
+
+#mainworks--take img{height: 860px;}
+
+/* Only Works for Clients */
+#works--wfclients{width: 70%; margin: 0}
+
+/* Only Works for Clients__Think Images */
+.works--wfclients__imgf{width: 75%; height: 450px}
+
+.works--wfclients__images>li:last-child img{width: 80px;}
+
+/* Only Works for Clients__title */
+.works--wfclients__title>li:first-child{height: 100px;}
+
+.works--wfclients__title p{font-size: 2.5rem}
+
+.works--wfclients__sub a{margin: 0 0;}
+
+/* works__makeIdea__images */
+.work--makeIdea__images{display: flex; flex-direction: row-reverse; align-items: flex-end; border-top:1px solid #666}
+
+.work--makeIdea__images__img{width: 70%; height: 540px;}
+
+.work--makeIdea__images__img_imgf{height: 388px;}
+
+.work--makeIdea__images__img img{display: block;height: 115px;}
+
+/* works__hidtory */
+.work--makeIdea__history{width: 100%;height: 400px;justify-content: flex-end;margin:1rem 1rem 0 0}
+
+.work--makeIdea__history>li:first-child{display: none}
+
+.work--makeIdea__history>li:last-child{width: 100%;}
+
+.work--makeIdea__history__list{height: 100%;display: flex; flex-flow: column; justify-content: space-between}
+
+.work--makeIdea__history__list span{font-size: 3rem; letter-spacing: -1px;}
+
+.work--makeIdea__history__list p{font-size: 1rem; font-weight: bold}
+
+/* View Graphic Work & View Character Works */
+.works1--gworks{display: flex}
+
+.works1--gworks>ul{width: 50%; height: 200px;}
+
+.works1--gworks>ul:first-child{border-right: 1px solid #fff}
+
+/*  Our Services */
+.works2--title>li:first-child{height: 100px}
+
+.works2--title p{font-size: 2.5rem;}
+
+#works2--sub{display: flex; justify-content: space-between}
+
+.works2--sub1{width: 45%}
+
+.works2--sub2{width: 45%}
+
+.works2--sub2>li:last-child{display: flex; justify-content: flex-end}
+
+/* Latest works */
+.works3--title>li:first-child{height: 100px}
+
+.works3--title p{font-size: 2.5rem;}
+
+            /* 스크롤박스 */
+            #works3--scrollBox, .works3--scrollBox__scroll{width: 720px;}
+
+
+/* Work Process  */
+.works4--title>li:first-child{height: 100px}
+
+.works4--title p{font-size: 2.5rem;}
+
+            /* 스크롤박스 */                
+            #works4--scroll, .works4--scrollBox__scroll{width: 620px;}
+
+/* Bottom IMG */
+#bottomimg{height: 740px;font-size: 2rem;line-height: 740px;} 
+
+}
+
+
+
+
+@media all and (min-width:1200px){
+
+/* 네비게이션 & 메인이미지 */
+#headerin{height: 1080px;}
+
+/*  Creative+Unique+Funny */
+#cuf{width: 1200px;display: flex;flex-direction: row-reverse}
+
+.cuf--image{width: 50%;height: 210px;}
+
+.cuf--title{width: 50%;}
+
+/* Only Works for Clients */
+#works{width: 1200px; display: flex;}
+
+/* TakeOutTheIdea */
+#works--take{width: 50%;}
+
+/* TakeOutTheIdea images */
+#mainworks--take{width: 30%; display: flex; justify-content: flex-end; }
+
+#mainworks--take img{height: 960px;}
+
+/* Only Works for Clients */
+#works--wfclients{width: 80%;height: 100% ;margin: 0}
+
+/* Only Works for Clients__title */
+.works--wfclients__sub{font-size: 1rem;line-height: 1.6rem;display: flex; flex-flow: column; justify-content: space-between;height: 400px;}
+
+.works--wfclients__sub__tit{font-size: 1.6rem;}
+
+.works--wfclients__sub li:first-child{margin-top: 2rem;}
+
+.works--wfclients__sub>li:nth-child(3){line-height: 1.6rem; font-size: 0.8rem}
+
+
+/* works__makeIdea */
+#works--makeIdea{width: 40%;}
+
+/* works__makeIdea__images */
+.work--makeIdea__images{height: 100%;flex-flow: column-reverse;justify-content: space-between ;border: 0}
+
+.work--makeIdea__images__img{width: 100%; height: 55%;}
+
+/* works__hidtory */
+.work--makeIdea__history{width: 100%;height: 40%; margin-top:0rem;justify-content: flex-end; margin-right: 1rem; padding: 0 0 2rem 0}
+
+.work--makeIdea__history>li:first-child{display: block;width: 200%;z-index: -1;}
+
+.work--makeIdea__history__list{height: 100%}
+
+/*  View Graphic Work & View Character Works */
+#works1{width: 1200px;}
+
+/*  Our Services */
+#works2{width: 1200px}
+
+#works2--sub{margin-top: 2rem}
+
+.works2--sub1>li, .works2--sub2>li{margin-bottom:2rem}
+
+.works2--sub1 h3, .works2--sub2 h3{font-size:1.6rem}
+
+.works2--sub1 p, .works2--sub2 p{font-size: 1rem;color: #666}
+
+.works2--sub1 span, .works2--sub2 span{font-size: 0.8rem; color: #999}
+
+.works2--sub2>li>img{display: block; height: 200px; opacity: 0.8;}
+
+/* Latest works */
+#works3{width: 1200px;}
+
+.works3--scrollBox__scroll>ul>li:hover .works3--scrollBox__co{background-color: #fc6;}
+
+            /* 스크롤박스 */
+            #works3--scrollBox, .works3--scrollBox__scroll{width: 1200px; height: 380px;}
+
+
+/* Work Process  */
+#works4{width: 1200px;}
+
+            /* 스크롤박스 */                
+            #works4--scroll, .works4--scrollBox__scroll{width: 1200px;}
+
+
+/* .mySlides {display:block;} */
+
+/* footer */
+#footerin a{font-size: 2rem;}
+
+#footerin>li:last-child{font-size: 1rem;margin-bottom:1rem }
+
+}
